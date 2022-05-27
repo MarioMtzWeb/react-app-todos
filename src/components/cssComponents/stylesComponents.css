@@ -1,0 +1,108 @@
+/*----- todoCounter -----*/
+.todoCounter-title{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #9BA3EB;
+}
+/*----- fin de todoCounter -----*/
+
+/*----- todoSearch -----*/
+.todoSearch--inputSearch{
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: .5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #533E85;
+    outline: none;
+}
+/*----- fin de todoSearch -----*/
+
+/*----- todoList -----*/
+.todoList--list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    padding: .5rem;
+    margin: 2rem auto;
+}
+/*----- fin de todoList -----*/
+
+/*----- todoItem -----*/
+
+.todoItem--todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: #646FD4;
+}
+.todoItem--checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.todoItem--p{
+    padding: .5rem;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.todoItem--btnRemove {
+    border: medium solid #242F9B;
+    background-color:  transparent;
+    font-weight: bolder;
+    color: #DBDFFD;
+    cursor: pointer;
+}
+.todoItem--btnRemove:hover {
+    color: #646FD4;
+    background-color: #242F9B;
+}
+.todoItem--btnRemove:active{
+    transform:  scale(.9);
+}
+/*----- fin de todoList -----*/
+
+/*----- createTodoButton -----*/
+.createTodoButton--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: calc(50% - 40px);
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bolder;
+    border-radius: 50%;
+    border: medium solid #646FD4;
+    color: #646FD4;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.createTodoButton--button:hover {
+    color: #242F9B;
+    background-color: #646FD4;
+}
+.createTodoButton--button:active {
+    transform: scale(.9);
+}
+/*----- fin de createTodoButton -----*/
+

@@ -1,6 +1,8 @@
+import './cssComponents/stylesComponents.css';
+
 
 export function CreateTodoButton(){
     return (
-        <button>+</button>
+        <button className="createTodoButton--button">+</button>
     )
 }
