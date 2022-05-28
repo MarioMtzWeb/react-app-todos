@@ -14,6 +14,13 @@ const todos = [
 function App() {
   return (
     <>
+    <div className="containerAddTask">
+      <h2>Hola!!! Mario Martinez</h2>
+      <label className="label--task"> Crear tarea
+        <input className="task--inputAdd" type="text" placeholder="Tarea"/>
+      </label>
+      <button className="btn--taskAdd">Agregar tarea</button>
+    </div>
     <div className="containerApp">
       <TodoCounter/>
       <TodoSearch/>

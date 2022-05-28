@@ -33,6 +33,7 @@
     max-width: 700px;
     padding: .5rem;
     margin: 2rem auto;
+    z-index: 10;
 }
 /*----- fin de todoList -----*/
 
@@ -47,6 +48,7 @@
     padding: .5rem;
     border-radius: 5px;
     background-color: #646FD4;
+    z-index: 10;
 }
 .todoItem--checkbox {
     width: 1.5rem;
@@ -68,9 +70,9 @@
     font-weight: bolder;
     color: #DBDFFD;
     cursor: pointer;
+    transition: background-color .3s ease;
 }
 .todoItem--btnRemove:hover {
-    color: #646FD4;
     background-color: #242F9B;
 }
 .todoItem--btnRemove:active{
@@ -80,6 +82,7 @@
 
 /*----- createTodoButton -----*/
 .createTodoButton--button {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,19 +90,20 @@
     height: 50px;
     bottom: 20px;
     right: calc(50% - 40px);
-    position: absolute;
     font-size: 3rem;
     font-weight: bolder;
     border-radius: 50%;
-    border: medium solid #646FD4;
+    /* border: medium solid #646FD4; */
+    border: none;
     color: #646FD4;
     cursor: pointer;
-    background-color: transparent;
+    background-color: #fff;
+    z-index: 999;
     
 }
 .createTodoButton--button:hover {
     color: #242F9B;
-    background-color: #646FD4;
+    background-color: #55efc4;
 }
 .createTodoButton--button:active {
     transform: scale(.9);
