@@ -8,7 +8,7 @@ import { TodoItem } from './components/TodoItem';
 const todos = [
   {text: 'Acabar el curso de Introducción a React',completed : true},
   {text: 'Acabar el curso practico de React',completed : false},
-  {text: 'Aprender más de logica y algoritmia',completed : true}
+  {text: 'Aprender más de logica y algoritmia',completed : false}
 ];
 
 function App() {

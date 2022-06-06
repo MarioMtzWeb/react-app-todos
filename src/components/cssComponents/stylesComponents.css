@@ -50,9 +50,14 @@
     background-color: #646FD4;
     z-index: 10;
 }
-.todoItem--checkbox {
-    width: 1.5rem;
-    height: 1.5rem;
+.todoItem--btn-check {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #000;
+    cursor: pointer;
+}
+.btn-check-completed {
+    color: green;
 }
 .todoItem--p{
     padding: .5rem;
@@ -73,7 +78,7 @@
     transition: background-color .3s ease;
 }
 .todoItem--btnRemove:hover {
-    background-color: #242F9B;
+    background-color: #d63031;
 }
 .todoItem--btnRemove:active{
     transform:  scale(.9);
